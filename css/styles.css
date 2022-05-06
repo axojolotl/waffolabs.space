@@ -1,27 +1,39 @@
 section {
   font-family: "Poppins", sans-serif;
-  padding: 0 2rem;
-}
-
-#cover-page {
   color: #000;
 }
 
 nav {
-  padding: 1rem 0 !important;
+  padding: 1rem !important;
 }
 
 .navbar-brand {
-  font-size: 28px !important;
+  font-size: 24px !important;
   font-weight: 700;
 }
 
-.navbar-brand:hover {
-  color: rgb(22, 21, 21) !important;
+#heading-container {
+  margin: 4% 0 4% 0;
 }
 
 #heading {
-  margin: 2rem 0 1rem;
+  color: #000;
   font-weight: 700;
   font-size: 4rem;
+}
+
+#heading:hover {
+  text-decoration: underline;
+}
+
+.text-muted:hover {
+  color: rgb(34, 31, 31) !important;
+}
+
+#project-heading {
+  font-weight: 600;
+}
+
+#contact-heading {
+  font-weight: 600;
 }

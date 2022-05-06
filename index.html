@@ -33,15 +33,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- HEADER -->
+    <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
 
     <title>WaffoLabs</title>
   </head>
   <body>
-    <section id="cover-page">
-      <div class="container-fluid">
+    <section>
+      <div class="container-fluid finisher-header">
         <!-- NAVBAR -->
         <nav class="navbar navbar-light navbar-expand-lg">
           <a href="#" class="navbar-brand">WaffoLabs</a>
@@ -57,7 +59,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- ITEMS -->
+          <!-- HAMBURGER ITEMS -->
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -73,9 +75,41 @@
           </div>
         </nav>
         <!-- HEADING -->
-        <h1 id="heading">Marjolo Mabuti</h1>
-        <script src="https://gist.github.com/axojolotl/46a6b66938be9878e944ab24d3cdaf11.js"></script>
+        <div class="container-fluid" id="heading-container">
+          <h2>Hello, world!</h2>
+          <h1 id="heading">I'm Marjolo Mabuti</h1>
+          <p class="text-muted">Student | Developer | Enthusiast</p>
+          <!-- BUTTONS -->
+          <button id="btn-contact" type="button" class="btn btn-outline-dark">
+            Contact
+          </button>
+          <button id="btn-github" type="button" class="btn btn-dark">
+            GitHub
+          </button>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <script src="https://gist.github.com/axojolotl/46a6b66938be9878e944ab24d3cdaf11.js"></script>
+        </div>
+      </div>
+      <script src="js/FinisherHeader.js" type="text/javascript"></script>
+    </section>
+    <!-- <section>
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <h2 id="project-heading">Projects</h2>
+        </div>
       </div>
     </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <h2 id="contact-heading">Contact</h2>
+        </div>
+      </div>
+    </section> -->
   </body>
 </html>
