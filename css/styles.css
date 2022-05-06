@@ -4,37 +4,65 @@ section {
 }
 
 nav {
-  padding: 1rem !important;
   font-family: "Poppins", sans-serif;
+  padding: 1rem !important;
+  font-size: 1.2rem;
 }
 
 .navbar-brand {
-  font-size: 24px !important;
+  font-size: 2rem !important;
   font-weight: 700;
 }
 
 #heading-container {
-  margin: 4% 0 4% 0;
+  padding: 8% 0 20% 0;
 }
 
 #heading {
   color: #000;
-  font-weight: 700;
-  font-size: 4rem;
+  font-weight: 800;
+  font-size: 5rem;
+  display: inline;
 }
 
 #heading:hover {
   text-decoration: underline;
 }
 
+#whoami {
+  font-size: 1.2rem;
+}
 .text-muted:hover {
   color: rgb(34, 31, 31) !important;
 }
 
-#project-heading {
-  font-weight: 600;
+#btn-github {
+  margin-left: 1rem;
 }
 
-#contact-heading {
-  font-weight: 600;
+#project-heading ,#contact-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem 0 1rem 0 ;
+}
+
+#project-name {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.row {
+  margin-top: 3rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 1.5rem;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
 }
