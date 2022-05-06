@@ -16,7 +16,7 @@ new FinisherHeader({
     },
   },
   colors: {
-    background: "#fff",
+    background: "#f1f1f1",
     particles: ["#929292", "#000000", "#3a3942", "#6d6d6d", "#b5b5b5"],
   },
   blending: "screen",
@@ -24,6 +24,6 @@ new FinisherHeader({
     center: 0,
     edge: 0.25,
   },
-  skew: -2,
+  skew: 8,
   shapes: ["s", "t", "c"],
 });

@@ -40,10 +40,14 @@ nav {
   margin: .5rem 0 .5rem 0;
 }
 
+#project-section {
+  padding: 1.5rem 0 5rem 0;
+}
+
 #project-heading ,#contact-heading {
   font-size: 3rem;
   font-weight: 700;
-  padding: 1rem 0 1rem 0 ;
+  padding: 1rem 0 0 0 ;
 }
 
 #project-name {
@@ -60,7 +64,6 @@ p {
 }
 
 footer {
-  margin-top: 5rem;
   padding: 1.5rem;
   background-color: #f1f1f1;
   color: #fff;
