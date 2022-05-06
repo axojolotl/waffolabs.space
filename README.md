@@ -1,2 +1,2 @@
 # waffolabs
-![image](https://user-images.githubusercontent.com/72655919/167139113-df61a54e-26ee-4909-8068-cb7e41dee919.png)
+![image](https://user-images.githubusercontent.com/72655919/167151192-b4db8c76-bb7f-44d0-ba86-685b4ba30180.png)
