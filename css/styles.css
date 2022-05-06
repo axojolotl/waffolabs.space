@@ -36,8 +36,8 @@ nav {
   color: rgb(34, 31, 31) !important;
 }
 
-#btn-github {
-  margin-left: 1rem;
+#btn-github, #btn-contact {
+  margin: .5rem 0 .5rem 0;
 }
 
 #project-heading ,#contact-heading {
@@ -62,7 +62,7 @@ p {
 footer {
   margin-top: 5rem;
   padding: 1.5rem;
-  background-color: #000000;
+  background-color: #f1f1f1;
   color: #fff;
   text-align: center;
 }
