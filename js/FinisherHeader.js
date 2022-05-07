@@ -3,7 +3,7 @@ new FinisherHeader({
   size: {
     min: 1,
     max: 20,
-    pulse: 0,
+    pulse: .02,
   },
   speed: {
     x: {
@@ -12,7 +12,7 @@ new FinisherHeader({
     },
     y: {
       min: 0,
-      max: 0.1,
+      max: 0.4,
     },
   },
   colors: {
@@ -22,8 +22,8 @@ new FinisherHeader({
   blending: "screen",
   opacity: {
     center: 0,
-    edge: 0.25,
+    edge: 0.3,
   },
-  skew: 8,
+  skew: 9,
   shapes: ["s", "t", "c"],
 });
