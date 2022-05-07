@@ -54,10 +54,12 @@ nav {
   margin-top: 1rem;
   font-weight: 500;
   font-weight: bold;
+  color: #2b2d30;
 }
 
-p {
+p, li {
   font-size: 1.1rem;
+  color : #44494e
 }
 
 .row {
