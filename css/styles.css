@@ -53,6 +53,7 @@ nav {
 #project-name {
   margin-top: 1rem;
   font-weight: 500;
+  font-weight: bold;
 }
 
 p {
